@@ -17,15 +17,15 @@ export class SidebarComponent implements OnInit {
   }
 
   logout() {
-    Swal.fire({
-      title: 'Espere por favor',
-      timerProgressBar: true,
-      didOpen: () => {
-        Swal.showLoading()
-      }
-    });
+    // Swal.fire({
+    //   title: 'Espere por favor',
+    //   timerProgressBar: true,
+    //   didOpen: () => {
+    //     Swal.showLoading()
+    //   }
+    // });
     this.authService.logout().then(() => {
-      Swal.close();
+      // Swal.close();
       this.router.navigate(['/login']);
       
     }).catch((err) => {

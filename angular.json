@@ -114,12 +114,16 @@
                             "devServerTarget": "ingresoEgreso:serve:production"
                         }
                     }
+                },
+                "deploy": {
+                    "builder": "@angular/fire:deploy",
+                    "options": {}
                 }
             }
         }
     },
     "defaultProject": "ingresoEgreso",
     "cli": {
-        "analytics": "26a651c8-6a0b-438b-a57a-e61aa169b781"
+        "analytics": "bd6fdb36-1fcd-41b9-866c-2f4a80dcdafe"
     }
 }
